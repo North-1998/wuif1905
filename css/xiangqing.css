@@ -34,7 +34,7 @@ header >a{
 .draw{
      width: 100%;
      height: 6.78rem;
-    background: #36d681;
+    /*background: #36d681;*/
     padding: 1.8rem;
     box-sizing: border-box;
 }
@@ -101,6 +101,7 @@ header >a{
 .list1 >a .hot{
     width: 1.84rem;
     height: 0.39rem;
+
     font-size: 0.2rem;
     color: #fbfeff;
     background-color: #fbb548;
@@ -124,24 +125,221 @@ header >a{
     line-height: 0.68rem;
     display: inline-block;
     position: relative;
+    margin-right: 0.78rem;
+    margin-left: 0.16rem;
 
 }
 .pro >a >i::before{
     content: '';
     width: 0.05rem;
     height: 0.05rem;
-    background-color: #4ebbfe;
+    /*margin-right: 0.14rem;*/
+    background-color: #36d681;
     box-shadow: 0 0.02rem 0.05rem 0
     rgba(54, 214, 129, 0.43);
     position: absolute;
     left:0;
-    top: 0;
+    top: 0.3rem;
 
 }
-user{
-
+.userh{
+    position: relative;
 }
+
 .userh >a >span{
     font-size: 0.32rem;
     color: #4ebbfe;
+
+}
+.userh >a >span > strong{
+    color: #000000;
+    opacity: 0.9;
+}
+.userh >a .hot{
+    font-size: 0.22rem;
+    color: #4ebbfe;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.userh >a >span >img{
+    display: inline-block;
+    width: 0.18rem;
+    height: 0.11rem;
+}
+.user .userList >li{
+    width: 100%;
+    border-bottom: 0.01rem solid #d8dfe3;
+
+}
+.user .userList >li >span{
+    display: inline-block;
+}
+.user .userList >li .left{
+    width: 0.82rem;
+    height: auto;
+    /*background-color: #4ebbfe;*/
+    padding: 0.44rem 0 1.12rem 0;
+}
+.user .userList >li .right{
+    width: 6rem;
+    height: 1.18rem;
+    /*background-color: #36d681;*/
+    float: right;
+    padding: 0.6rem 0;
+    margin-left: 0.2rem;
+}
+.right .name{
+    font-size: 0.2rem;
+    color: #cfcfcf;
+}
+.right .time{
+    font-size: 0.22rem;
+    color: #9ed5ff;
+    float: right;
+}
+.right  .comment{
+    width: 1.28rem;
+    height: 0.22rem;
+    margin-left: 0.2rem;
+}
+.right > p{
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.right .info{
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.right .shoes{
+    width: 1.78rem;
+    height: 1.28rem;
+    float: left;
+}
+.xiangqing{
+    width: 100%;
+    height: 3.74rem;
+
+    position: relative;
+}
+.goods {
+    height: 0.74rem;
+    width: 100%;
+    font-size: 0.32rem;
+    line-height: 0.74rem;
+    color: #35db82;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+    border-bottom:0.01rem solid #d8dfe3 ;
+
+}
+.goods > strong{
+    font-size: 0.32rem;
+    color: #4f5b64;
+}
+.goods ::before{
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #35db82;
+
+    box-shadow: 0px 2px 5px 0px
+    rgba(53, 219, 130, 0.43);
+    border-radius: 3px;
+    position: absolute;
+    left: 0.1rem;
+    top:0.4rem;
+}
+.xiangqing  > span >img{
+    display: block;
+    width: 100%;
+    height: 3rem;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+}
+.recommend{
+    width: 100%;
+    height: 6.64rem;
+    /*background-color: #36d681;*/
+
+}
+.recommend > ul >li{
+    width: 100%;
+    height: 3.34rem;
+}
+.recommend >ul > li >span{
+    width: 33.33%;
+    height: 3.34rem;
+    display: inline-block;
+    /*background-color: #d8dfe3;*/
+    float: left;
+    padding: 0.1rem 0.1rem;
+    box-sizing: border-box;
+}
+.recommend >ul > li >span > a >img{
+    width: 1.37rem;
+    height: 1.5rem;
+}
+.recommend >ul > li >span > a >p{
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.recommend >ul > li >span > a >p .hot{
+    font-size: 0.28rem;
+    color: #fbb548;
+}
+.foot{
+    width: 100%;
+    height: 1.08rem;
+    background-color: #f1faff;
+    position: relative;
+}
+.foot > a > div > span >img{
+    width: 0.6rem;
+    height: 0.78rem;
+    display: inline-block;
+    margin-top: 0.1rem;
+    margin-left: 0;
+
+
+}
+.foot > a >div .image_1{
+    position: absolute;
+    left: 0.3rem;
+    top: 0;
+}
+.foot > a > div .image_2{
+    position: absolute;
+    left: 1.4rem;
+    top: 0;
+}
+.foot > a .shop >strong{
+    width: 1.96rem;
+    height: 0.6rem;
+    font-size: 0.24rem;
+    color: white;
+    background-color: #36d681;
+    box-shadow: 0px 4px 20px 0px
+    rgba(55, 223, 116, 0.75);
+    border-radius: 30px;
+    margin-left: 0.6rem;
+    line-height: 1.08rem;
+    padding: 0.18rem 0.36rem;
+}
+.foot > a .sell >strong{
+    width: 1.96rem;
+    height: 0.6rem;
+    font-size: 0.24rem;
+    color: white;
+    background-color: #3bacfe;
+    box-shadow: 0px 5px 12px 0px
+    rgba(59, 172, 254, 0.43);
+    border-radius: 30px;
+    margin-left: 0.2rem;
+    line-height: 1.08rem;
+    padding: 0.18rem 0.36rem;
 }
